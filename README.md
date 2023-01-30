@@ -47,7 +47,8 @@ Locate `.ROBLOSECURITY` and copy it's value <br>
 
 In the cookie array, add the cookie's value as a string. <br>
 
-![image](https://user-images.githubusercontent.com/86912923/203607617-8648bfa7-970f-42c0-b399-ba4429e4c520.png)
+<img src="https://user-images.githubusercontent.com/86912923/215582485-ad6504d4-3892-4381-869e-68ecba26e711.png" style="width: 70%"/>
+
 <br>
 
 To format muitple cookies, I have list an example below.
@@ -79,14 +80,15 @@ Locate your exploit's autoexec folder and drag n drop `BotControler.lua` into it
 
 # Botting a game
 
-Once you have compleated the steps above, copy your Roblox's username (or a friend's) to be added to the permission list in `BotControler.lua`.
+Once you have compleated the steps above, copy your Roblox's username `NOT DISPLAY NAME` to be added to the permission list in `BotControler.lua`.
 Once copyied paste it into the table and save the file. <br>
 
-![image](https://user-images.githubusercontent.com/86912923/203613679-e0904c4e-c6ab-4e61-accd-7fc25e04abab.png)
+<img src="https://user-images.githubusercontent.com/86912923/215581093-8534ab54-a4e8-4acd-8996-a76253582321.png" style="width: 70%"/>
 
-Open your exploit and MuitRBX, join the game you would like to bot. Once in the game execute a script like <a href="https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source">Infinite Yield</a> and copy the game's Jobid and paste it into the python script and reduce it to the image shown below. <br>
 
-![image](https://user-images.githubusercontent.com/86912923/203609406-c99aa0a2-86c3-48cd-9e6f-0411db7ad9f5.png)
+Open your exploit and MuitRBX, join the game you would like to bot. Once in the game execute a script like <a href="https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source">Infinite Yield</a> and copy the game's Jobid and paste it into the python script and reduce it to the image shown below on line 3. <br>
+
+<img src="https://user-images.githubusercontent.com/86912923/215581693-027b0dac-4007-4f19-a19d-7dc5ad762738.png" style="width: 70%"/>
 
 Run the python script and enjoy.
 
