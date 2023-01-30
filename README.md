@@ -14,6 +14,7 @@ The instructions below are listed in order of steps so make sure to follow them!
   <li> A Roblox exploit that supports Autoexec <b> (<a href="https://x.synapse.to/">Synapse</a>: Paid or <a href="https://krnl.dev/">Krnl</a>: Free) </b> </li>
   <li> <a href="http://www.editthiscookie.com/"> Edit this cookie </a> </li>
   <li> <a href="https://wearedevs.net/dinfo/Multiple%20Games"> Muitiple rbx </a> </li>
+  <li> A python IDE, (I'd recomend Pycharm) <a href="https://www.jetbrains.com/pycharm/">  </a> </li>
 </ul>
 
 <br>
