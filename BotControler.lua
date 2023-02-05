@@ -1,5 +1,6 @@
 repeat wait() until game:IsLoaded() == true
-wait(10)
+wait(8)
+
 local players = game:GetService("Players")
 local localplayer = players.LocalPlayer
 repeat wait() until localplayer.Character and localplayer.Character.HumanoidRootPart
@@ -17,8 +18,10 @@ _G.INFO = {
 	FollowPlayer = "",
 	LoopGoTo = "",
 	LoopSay = "",
-	Unlocked=false, -- Permissions unlocked (Gives everyone permission)
-	ChatMode="General", -- "General" -- "All"  ||  This is the chat mode (Advanced users only)
+	Unlocked = false, -- Permissions unlocked (Gives everyone permission)
+	ChatMode = "General", -- "General" -- "All"  ||  This is the chat mode (Advanced users only)
+	Render = true, -- Set this to false if you don't want the bot clients to render 3D. (SAVES CPU AND GPU PERFORMANCE)
+	Random = true, -- Bypasses most anti spam systems
 }
 
 local function GetPlayer(Player,Name)
@@ -102,6 +105,9 @@ if not _G.INFO.Owners[localplayer.Name] then
 	if setfpscap then
 		setfpscap(15)
 	end
+	if _G.INFO.Render == false then
+		game:GetService("RunService"):Set3dRenderingEnabled(true)
+	end
 	StarterGui:SetCoreGuiEnabled('PlayerList', false)
 	localplayer.Idled:Connect(function()
 		VirtualUser:CaptureController()
@@ -148,7 +154,17 @@ if not _G.INFO.Owners[localplayer.Name] then
 			end
 			pcall(function()
 				if _G.INFO.LoopSay ~= "" then
-					ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(_G.INFO.LoopSay, _G.INFO.ChatMode)
+					Message = _G.INFO.LoopSay
+					if _G.INFO.Random == true then
+						local min, max, final = ("a"):byte(), ("z"):byte(), ""
+
+						for i = 1, 3 do
+							final = final .. string.char(math.random(min, max))
+						end
+
+						Message = Message .. " " .. final
+					end
+					ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Message, _G.INFO.ChatMode)
 				end
 				if _G.INFO.LoopGoTo ~= "" then
 					HumanoidRootPart.CFrame = players[_G.INFO.LoopGoTo].Character.HumanoidRootPart.CFrame * CFrame.new(math.random(-3,3),0,math.random(-3,3))
