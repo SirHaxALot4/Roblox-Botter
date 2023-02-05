@@ -1,8 +1,6 @@
-# Roblox-Botter
-Make accounts join games and control what they do with chat commands!
-
-<br>
-
+# Roblox-Botter 
+<img src="https://vignette.wikia.nocookie.net/roblox/images/4/47/GREEN_SCAMMER_BOT.png/revision/latest" style="height: 10%"> 
+Make accounts join games and control what they do with chat commands! <br>
 The instructions below are listed in order of steps so make sure to follow them!
 
 <br>
