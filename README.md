@@ -5,7 +5,7 @@ The instructions below are listed in order of steps so make sure to follow them!
 
 <br><br>
 
-<b>```! THIS WILL BE DISCONTINUED AS SCRIPT INJECTION FOR MUTIPLE CLIENTS IS BECOMING UNSTABLE!``` <br>
+<b>```! AUTO ATTACH IN EXPLOITS FOR MUTIPLE CLIENTS IS BECOMING UNSTABLE!``` <br>
 ```A V2 WILL BE MADE SOON AND SHOULD BE EASY TO GET WORKING ON LINUX```
 
 ```This means, the bots can only be used for spamming sadly but this should still work```</b>
