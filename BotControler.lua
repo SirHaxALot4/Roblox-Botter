@@ -11,17 +11,24 @@ local VirtualUser = game:GetService("VirtualUser")
 local StarterGui = game:GetService("StarterGui")
 
 _G.INFO = {
-	Owners = { -- Permission list for the bots.
+	-- Permission list for the bots.
+	Owners = { 
 		["Quandaledingle_Owl"]="" 
 	},
-	BozoLoop = false,
+	
+	Unlocked = false, -- Permissions unlocked (Gives everyone permission)
+	ChatMode = "All", -- "General" -- "All"  ||  This is the chat mode (Advanced users only)
+	Render = true, -- Set this to false if you don't want the bot clients to render 3D. (SAVES CPU AND GPU PERFORMANCE)
+	Random = true, -- Bypasses most anti spam systems
+	
+	-- Don't touch --
+	
+	BozoLoop = false, 
 	FollowPlayer = "",
 	LoopGoTo = "",
 	LoopSay = "",
-	Unlocked = false, -- Permissions unlocked (Gives everyone permission)
-	ChatMode = "General", -- "General" -- "All"  ||  This is the chat mode (Advanced users only)
-	Render = true, -- Set this to false if you don't want the bot clients to render 3D. (SAVES CPU AND GPU PERFORMANCE)
-	Random = true, -- Bypasses most anti spam systems
+	
+	-----------------
 }
 
 local function GetPlayer(Player,Name)
