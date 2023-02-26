@@ -1,5 +1,7 @@
 # Roblox-Botter 
-<img src="https://vignette.wikia.nocookie.net/roblox/images/4/47/GREEN_SCAMMER_BOT.png/revision/latest" style="height: 10%"> 
+
+<img src="https://user-images.githubusercontent.com/86912923/221433277-b374f98c-338a-45c8-96d7-62f55a5d7dea.png" style="height: 10%"> 
+
 Make accounts join games and control what they do with chat commands! <br>
 The instructions below are listed in order of steps so make sure to follow them!
 
