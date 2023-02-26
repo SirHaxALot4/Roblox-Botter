@@ -190,7 +190,7 @@ if not _G.INFO.Owners[localplayer.Name] then
 
 	messageDoneFiltering.OnClientEvent:Connect(function(message)
 		local player = players:FindFirstChild(message.FromSpeaker)
-		local message = message.Message or ""
+		local message = message.Message
 
 		if player then
 			ChatEvent(message,player)
