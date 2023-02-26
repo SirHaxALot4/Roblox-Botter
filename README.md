@@ -35,7 +35,7 @@ Python should pip <b>(Python's package manager)</b> as well, so let's check if i
 If pip as installed sucessfully, run `pip install requests pathlib`. This will install the required packages.
 
 <br>
-<br>
+<br> 
 
 # Grabbing the Roblox account's cookie
 For this you need <a href="http://www.editthiscookie.com/"> Edit this cookie </a> or simular to browse cookies.
