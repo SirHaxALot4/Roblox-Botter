@@ -2,16 +2,18 @@
 
 <img src="https://user-images.githubusercontent.com/86912923/221433277-b374f98c-338a-45c8-96d7-62f55a5d7dea.png" style="height: 10%"> 
 
+[![MIT License][license-shield]][license-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+<br>
+
 Make accounts join games and control what they do with chat commands! <br>
-The instructions below are listed in order of steps so make sure to follow them!
+The instructions below are listed in order of steps so make sure to follow them! <br>
 
-<br><br>
-
-<b>```! AUTO ATTACH IN EXPLOITS FOR MUTIPLE CLIENTS IS BECOMING UNSTABLE!``` <br>
-```A V2 WILL BE MADE SOON AND SHOULD BE EASY TO GET WORKING ON LINUX```
-
-```This means, the bots can only be used for spamming sadly but this should still work```</b>
-
+Some exploits will break at times such as Synapse not auto attaching. <br>
+Please do not create an issue about this, report it to the exploit developers instead.
 
 <br>
 
@@ -114,3 +116,18 @@ chatmode, (Mode) | Change the Chat mode e.g `All, General`
 Rejoin | Make the bots rejoin the game.
 Follow, (Player name) | Make the bots follow a player. | Stop `Follow, `
 ```
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[forks-shield]: https://img.shields.io/github/forks/depthso/Roblox-Botter.svg?style=for-the-badge
+[forks-url]: https://github.com/depthso/Roblox-Botter/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/depthso/Roblox-Botter.svg?style=for-the-badge
+[stars-url]: https://github.com/depthso/Roblox-Botter/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/depthso/Roblox-Botter.svg?style=for-the-badge
+[issues-url]: https://github.com/depthso/Roblox-Botter/issues
+
+[license-shield]: https://img.shields.io/github/license/depthso/Roblox-Botter.svg?style=for-the-badge
+[license-url]: https://github.com/depthso/Roblox-Botter/blob/master/LICENSE.txt
