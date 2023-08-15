@@ -157,7 +157,7 @@ if not _G.INFO.Owners[localplayer.Name] then
 		while true do
 			wait(math.random(0.5,1.5))
 			if _G.INFO.BozoLoop == true then
-				ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Bozo detected", _G.INFO.ChatMode)
+				ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I hate black ppl", _G.INFO.ChatMode)
 			end
 			pcall(function()
 				if _G.INFO.LoopSay ~= "" then
